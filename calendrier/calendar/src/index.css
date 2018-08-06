@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#myCalendar{
+	width: 100%;
+	margin: auto;
+    height:1000px;
+}
+#myCalendar button{
+	font-size: medium;
+	background: blanchedalmond;
+	font-weight: 400;
+}
+
+#myCalendar .rbc-toolbar{
+
+	    height: 50px;
+    background: burlywood;
+}
+#myCalendar .rbc-time-view{
+	background: blanchedalmond;
+}
+#myCalendar .rbc-event{
+background: #068c90de;
+    border-radius: 10px;
+}
+#new-plan{
+	display:block;
+	position: fixed;
+	top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background:rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 6px 4px grey;
+    
+}
+
+#new-plan main{
+	   background-color: #3e3d3d;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 25%;
+    padding: 50px 50px;
+    color: white;
+}
+#new-plan input {
+width: 100%;
+margin-bottom: 20px;
+line-height: 35px;
+font-size: 18px;
+outline-color: hsl(220, 100%, 76%);
+position: relative;
+}
+#new-plan button{
+height: 40px; 
+font-size : 18px;
+width : 100%;
+cursor: pointer;
+outline: none;
+border: none;
+background-color: #009688;
+color: white;
+border-radius: 15px;
+margin-top : 20px;
+}
